@@ -1,17 +1,6 @@
 import PropTypes from "prop-types";
 import defaultImage from "./defaultImage.png";
 import css from "../Profile/Profile.module.css";
-// import User from 'user.json'
-
-// username: Jacques Gluke,
-// tag: jgluke,
-// location: Ocho Rios, Jamaica,
-// avatar: https://cdn-icons-png.flaticon.com/512/2922/2922506.png,
-// stats: {
-//   followers: 5603,
-//   views: 4827,
-//   likes: 1308
-
 
 export const Profile = ({
     username = "User Name",
@@ -47,3 +36,15 @@ export const Profile = ({
     </ul>
   </div>
 }
+
+Profile.prototype = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string,
+  stats: PropTypes.shape({
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
+  }),
+};

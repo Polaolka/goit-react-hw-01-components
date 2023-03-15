@@ -1,0 +1,15 @@
+.section {
+    border: 1px solid dimgray;
+    border-radius: 10px;
+    margin: 0 auto 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 1200px;
+    overflow: hidden;
+}
+.title {
+    color: dimgray;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
