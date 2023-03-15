@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Polaolka/goit-react-hw-01-components/static/css/main.b5320759.css",
-    "main.js": "/Polaolka/goit-react-hw-01-components/static/js/main.0f1d571b.js",
+    "main.css": "/Polaolka/goit-react-hw-01-components/static/css/main.a9674cec.css",
+    "main.js": "/Polaolka/goit-react-hw-01-components/static/js/main.c87b526f.js",
     "index.html": "/Polaolka/goit-react-hw-01-components/index.html",
-    "main.b5320759.css.map": "/Polaolka/goit-react-hw-01-components/static/css/main.b5320759.css.map",
-    "main.0f1d571b.js.map": "/Polaolka/goit-react-hw-01-components/static/js/main.0f1d571b.js.map"
+    "main.a9674cec.css.map": "/Polaolka/goit-react-hw-01-components/static/css/main.a9674cec.css.map",
+    "main.c87b526f.js.map": "/Polaolka/goit-react-hw-01-components/static/js/main.c87b526f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5320759.css",
-    "static/js/main.0f1d571b.js"
+    "static/css/main.a9674cec.css",
+    "static/js/main.c87b526f.js"
   ]
 }
