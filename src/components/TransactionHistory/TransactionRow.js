@@ -11,8 +11,7 @@ export const TransactionRow = ({ type, amount, currency }) => {
   );
 };
 
-TransactionRow.prototype = {
-    id: PropTypes.string.isRequired,
+TransactionRow.propTypes = {
     type: PropTypes.string.isRequired,
     amount: PropTypes.string.isRequired,
   };

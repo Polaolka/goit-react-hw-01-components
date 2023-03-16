@@ -37,7 +37,7 @@ export const Profile = ({
   </div>
 }
 
-Profile.prototype = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,

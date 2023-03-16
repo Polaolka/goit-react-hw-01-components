@@ -11,9 +11,8 @@ export const FriendtItem = ({ avatar, name, isOnline, id }) => {
   );
 };
 
-FriendtItem.prototype = {
+FriendtItem.propTypes = {
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     isOnline: PropTypes.bool.isRequired,
-    id: PropTypes.number.isRequired,
 };

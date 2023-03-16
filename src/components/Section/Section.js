@@ -10,6 +10,6 @@ export function Section({ title, children }) {
     );
   }
   
-  Section.prototype = {
+  Section.propTypes = {
     title: PropTypes.string,
   };

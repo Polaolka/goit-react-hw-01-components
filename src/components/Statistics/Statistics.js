@@ -21,11 +21,10 @@ export const Statistics = ({ title = 'Upload stats', data }) => {
   </div>;
 };
 
-Statistics.prototype = {
+Statistics.propTypes = {
   title: PropTypes.string,
   data: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
     })
